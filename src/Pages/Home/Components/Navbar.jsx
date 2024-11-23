@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 const Navbar = () => {
   return (
     <>
-      <nav className='pt-[40px]'>
+      <nav className='pt-[40px] px-5'>
         <div className="container">
           <div className="row flex justify-between items-center">
             <div className="logo ">
@@ -18,17 +18,17 @@ const Navbar = () => {
             </div>
             <div className="links">
                 <ul className='flex items-center gap-[60px]'>
-                  <li className='text-base font-medium font-inter text-black tracking-[-2%]'><Link>Home</Link></li>
-                  <li className='text-base font-medium font-inter text-black tracking-[-2%]'><Link>Recipes</Link></li>
-                  <li className='text-base font-medium font-inter text-black tracking-[-2%]'><Link>Blog</Link></li>
-                  <li className='text-base font-medium font-inter text-black tracking-[-2%]'><Link>Contact</Link></li>
-                  <li className='text-base font-medium font-inter text-black tracking-[-2%]'><Link>About us</Link></li>
+                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>Home</Link></li>
+                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>Recipes</Link></li>
+                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>Blog</Link></li>
+                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>Contact</Link></li>
+                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>About us</Link></li>
                 </ul>
             </div>
             <div className="social flex gap-[40.04px]">
-                <Link><FaFacebookF/></Link>
-                <Link><FaTwitter/></Link>
-                <Link><FaInstagram/></Link>
+                <Link><FaFacebookF className='hover:scale-[1.1] duration-[0.4s]'/></Link>
+                <Link><FaTwitter className='hover:scale-[1.1] duration-[0.4s]'/></Link>
+                <Link><FaInstagram className='hover:scale-[1.1] duration-[0.4s]'/></Link>
             </div>
           </div>
         </div>
