@@ -13,11 +13,11 @@ const CommonRecipe = ({image , details , time , name}) => {
               <h2 className='w-[352px] text-[24px] font-semibold font-inter text-black leading-[32px] tracking-[-4%] absolute bottom-[80px] left-[24px]'>{details}</h2>
               <div className='flex gap-6 absolute bottom-[32px] left-[24px]'>
                 <div className='flex items-center gap-[10px]'>
-                  <PiTimerFill/>
+                  <PiTimerFill className='text-2xl'/>
                   <p className='text-sm font-medium font-inter text-black tracking-[-2%] opacity-[60%]'>{time}</p>
                 </div>
                 <div className='flex items-center gap-[10px]'>
-                  <PiForkKnifeFill/>
+                  <PiForkKnifeFill className='text-2xl'/>
                   <p className='text-sm font-medium font-inter text-black tracking-[-2%] opacity-[60%]'>{name}</p>
                 </div>
               </div>

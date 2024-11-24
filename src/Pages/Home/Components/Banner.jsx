@@ -34,8 +34,8 @@ const Banner = () => {
                     <p className='text-[14px] font-medium font-inter text-black tracking-[-2%] opacity-[60%]'>15 March 2022</p>
                   </div>
                 </div>
-              <div className='flex gap-[15px] items-center py-[18px] px-[36px] bg-black rounded-[16px]'>
-                <div className='text-[14px] font-semibold font-inter text-white tracking-[-2%] '>
+              <div className='flex gap-[15px] items-center py-[18px] px-[36px] bg-black rounded-[16px] text-white hover:text-black hover:bg-gray-500 duration-[0.4s] hover:scale-[1.07]'>
+                <div className='text-[14px] font-semibold font-inter tracking-[-2%] '>
                 <Link>View Recipes</Link>
                 </div>
                 <div className='text-white'>
