@@ -6,6 +6,8 @@ import Recipes from './Components/Recipes'
 import Chef from './Components/Chef'
 import CheckOut from './Components/CheckOut'
 import TryRecipe from './Components/TryRecipe'
+import Inbox from './Components/Inbox'
+import Footer from './Components/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Chef/>
       <CheckOut/>
       <TryRecipe/>
+      <Inbox/>
+      <Footer/>
     </>
   )
 }
