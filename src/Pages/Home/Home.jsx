@@ -5,6 +5,7 @@ import Categories from './Components/Categories'
 import Recipes from './Components/Recipes'
 import Chef from './Components/Chef'
 import CheckOut from './Components/CheckOut'
+import TryRecipe from './Components/TryRecipe'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Recipes/>
       <Chef/>
       <CheckOut/>
+      <TryRecipe/>
     </>
   )
 }
