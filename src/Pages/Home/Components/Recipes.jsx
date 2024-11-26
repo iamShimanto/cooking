@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Recipes = () => {
   return (
     <>
-      <section className='pt-[183px]'>
+      <section className='pt-[183px]' id='recipe'>
         <div className="container">
           <div className="row">
             <h2 className='text-[48px] font-inter font-semibold text-black tracking-[-4%] text-center'>Simple and tasty recipes</h2>
