@@ -5,7 +5,7 @@ import { PiForkKnifeFill } from "react-icons/pi";
 const CommonTryRecipe = ({image , details , time , name}) => {
   return (
     <>
-        <div>
+        <div className='hover:scale-[1.07] duration-[0.4s]'>
               <div>
                 {image}
               </div>

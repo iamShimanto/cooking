@@ -2,16 +2,13 @@ import React from 'react'
 import { PiTimerFill } from "react-icons/pi";
 import { PiForkKnifeFill } from "react-icons/pi";
 
-const CommonRecipe = ({image , details , time , name}) => {
+const CommonCheckout = ({image , body , time , name}) => {
   return (
     <>
-      <div className='relative hover:scale-[1.07] duration-[0.3s]'>
-              <img src="images/food-bg.png" alt="bg" />
-              <div className='absolute bottom-[168px] left-[16px]'>
-                {image}
-              </div>
-              <h2 className='w-[352px] text-[24px] font-semibold font-inter text-black leading-[32px] tracking-[-4%] absolute bottom-[80px] left-[24px]'>{details}</h2>
-              <div className='flex gap-6 absolute bottom-[32px] left-[24px]'>
+        <div className='hover:scale-[1.05] duration-[0.4s]'>
+          <div className='w-[290px]'>{image}</div>
+          <p className='w-[290px] text-lg font-semibold font-inter text-black leading-[26px] tracking-[-4%] mt-4 mb-6'>{body}</p>
+          <div className=' flex gap-6'>
                 <div className='flex items-center gap-[10px]'>
                   <PiTimerFill className='text-2xl'/>
                   <p className='text-sm font-medium font-inter text-black tracking-[-2%] opacity-[60%]'>{time}</p>
@@ -20,10 +17,10 @@ const CommonRecipe = ({image , details , time , name}) => {
                   <PiForkKnifeFill className='text-2xl'/>
                   <p className='text-sm font-medium font-inter text-black tracking-[-2%] opacity-[60%]'>{name}</p>
                 </div>
-              </div>
-            </div>
+          </div>
+        </div>
     </>
   )
 }
 
-export default CommonRecipe
+export default CommonCheckout

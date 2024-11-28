@@ -13,9 +13,9 @@ const Footer = () => {
               </div>
               <div className="links">
                 <ul className='flex items-center gap-[60px]'>
-                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>Recipes</Link></li>
+                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><a className='recipe' href="#recipe">Recipes</a></li>
                   <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link to='/blog'>Blog</Link></li>
-                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>Contact</Link></li>
+                  <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link to='/contact'>Contact</Link></li>
                   <li className='text-base font-medium font-inter text-black tracking-[-2%] px-5 py-3 hover:bg-black hover:text-white rounded-[10px] duration-[0.4s]'><Link>About us</Link></li>
                 </ul>
             </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const CommonBlogRecipe = ({image , head , body , personImg , personName , date}) => {
   return (
     <>
-      <div>
+      <div className='hover:scale-[1.07] duration-[0.4s]'>
       <div className='flex gap-[40px]'>
                   <div className="img ">
                     {image}

@@ -3,7 +3,7 @@ import React from 'react'
 const TastyRecipe = ({image , body , name}) => {
   return (
     <>
-        <div className='flex gap-6'>
+        <div className='flex gap-6 hover:scale-[1.07] duration-[0.4s]'>
           <div className="img">
             {image}
           </div>
